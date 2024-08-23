@@ -5,6 +5,9 @@ import AuthorInfo from "./components/AuthorInfo";
 import IngredientList from "./components/Ingredients";
 import RecipeImage from "./components/RecipeImage";
 import RecipeName from "./components/RecipeName";
+import ClickedButton from "./components/ClickedButton";
+import SaveButton from "./components/SaveButton";
+
 
 export default function App() {
   return (
@@ -18,3 +21,4 @@ export default function App() {
     </>
   );
 }
+

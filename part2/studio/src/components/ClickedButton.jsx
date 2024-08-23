@@ -1,5 +1,10 @@
 function ClickedButton() {
-  return;
+  function handelClick() { 
+    alert("pin is removed from board");
+  }
+  return(
+    <button id="clickedButton" onClick={handelClick}>Saved</button>
+  );
 }
 
 export default ClickedButton;
